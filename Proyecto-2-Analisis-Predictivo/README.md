@@ -3,6 +3,8 @@
 ## Objetivo del Proyecto
 Desarrollar un modelo de Machine Learning para predecir qué empleados tienen mayor riesgo de abandonar la empresa, identificando los factores clave que influyen en la rotación laboral (attrition) y proporcionando insights accionables para el departamento de Recursos Humanos.
 
+![Preview del Proyecto](preview.png)
+
 ## Herramientas y Tecnologías Utilizadas
 
 ### Lenguajes y Librerías
