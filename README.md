@@ -41,10 +41,17 @@ Estudiante de Ingeniería de Sistemas con sólida formación en análisis de dat
 
 ---
 
-### 2. [Análisis Predictivo de Rotación de Empleados (HR Analytics)]
-## Objetivo del Proyecto
-Desarrollar un modelo de Machine Learning para predecir qué empleados tienen mayor riesgo de abandonar la empresa, identificando los factores clave que influyen en la rotación laboral (attrition) y proporcionando insights accionables para el departamento de Recursos Humanos.
+### 2. [Análisis Predictivo de Rotación de Empleados (HR Analytics)](./Proyecto-2-Analisis-Predictivo)
+**Herramientas**: Python, Pandas, Scikit-learn, Seaborn, Machine Learning  
+**Descripción**: Modelo predictivo de Machine Learning (Random Forest) para identificar empleados con riesgo de abandono. Análisis de 1,470 empleados identificando factores clave como salario, edad y work-life balance.
 
+**Logros clave**:
+- Modelo con 83.67% de precisión y ROC-AUC de 0.82
+- Identificación de Sales Representatives como grupo crítico (40% attrition)
+- 11 visualizaciones profesionales + Feature Importance Analysis
+- Recomendaciones estratégicas basadas en datos para RRHH
+
+**Habilidades**: Python, Machine Learning, Feature Engineering, EDA, Visualización Avanzada, Pensamiento Estratégico
 
 ---
 
