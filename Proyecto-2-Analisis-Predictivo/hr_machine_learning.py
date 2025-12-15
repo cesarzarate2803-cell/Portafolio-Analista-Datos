@@ -247,21 +247,4 @@ predictions_df.to_csv('outputs/predictions.csv', index=False)
 print(" Guardado: predictions.csv")
 
 # =============================================================================
-# RESUMEN FINAL
-# =============================================================================
-
-print("\n" + "="*80)
-print(" MODELO COMPLETADO EXITOSAMENTE")
-print("="*80)
-print(f"\n RESUMEN DEL MODELO:")
-print(f"   • Precisión (Accuracy): {accuracy:.2%}")
-print(f"   • ROC-AUC Score: {roc_auc:.2f}")
-print(f"   • Empleados correctamente clasificados: {(y_test == y_pred).sum()}/{len(y_test)}")
-print(f"\n ARCHIVOS GENERADOS:")
-print(f"   • outputs/09_confusion_matrix.png")
-print(f"   • outputs/10_feature_importance.png")
-print(f"   • outputs/11_roc_curve.png")
-print(f"   • outputs/feature_importance.csv")
-print(f"   • outputs/predictions.csv")
-print(f"\n PRÓXIMO PASO: Preparar datos para Power BI")
-print("="*80)
+print("okey")
