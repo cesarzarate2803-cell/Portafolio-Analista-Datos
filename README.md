@@ -108,7 +108,7 @@ Data Cleaning, Análisis Exploratorio, Tablas Dinámicas, DAX, Power Query, Visu
 
 ### 2. [Análisis Predictivo de Rotación de Empleados (HR Analytics)](./Proyecto-2-HR-Analytics)
 
-![Dashboard HR](Proyecto-2-HR-Analytics/dashboard-preview.png)
+![Dashboard HR](Proyecto-2-Analisis-Predictivo/dashboard-preview.png)
 
 **Herramientas**: Python, Pandas, Scikit-learn, Seaborn, Power BI, Machine Learning  
 **Dataset**: 1,470 empleados con 35 características
