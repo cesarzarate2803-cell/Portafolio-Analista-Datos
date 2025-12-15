@@ -198,28 +198,4 @@ high_risk = df_powerbi[df_powerbi['Riesgo_ML'] == 'Alto'][
 high_risk.to_excel('outputs/PowerBI_HighRisk.xlsx', index=False)
 print(f" Guardado: PowerBI_HighRisk.xlsx ({len(high_risk)} empleados)")
 
-# =============================================================================
-# RESUMEN
-# =============================================================================
-
-print("\n" + "="*80)
-print(" PREPARACIÓN COMPLETADA - DATASET COMPLETO")
-print("="*80)
-print(f"\n ESTADÍSTICAS DEL DATASET:")
-print(f"   • Total empleados: {len(df_powerbi)}")
-print(f"   • Deserción real (Yes): {(df_powerbi['Deserción'] == 'Yes').sum()} ({(df_powerbi['Deserción'] == 'Yes').sum()/len(df_powerbi)*100:.1f}%)")
-print(f"   • Predicción ML (Yes): {(df_powerbi['Prediccion_ML'] == 'Yes').sum()} ({(df_powerbi['Prediccion_ML'] == 'Yes').sum()/len(df_powerbi)*100:.1f}%)")
-print(f"\n DISTRIBUCIÓN DE RIESGO ML:")
-print(f"   • Bajo: {(df_powerbi['Riesgo_ML'] == 'Bajo').sum()} empleados")
-print(f"   • Medio: {(df_powerbi['Riesgo_ML'] == 'Medio').sum()} empleados")
-print(f"   • Alto: {(df_powerbi['Riesgo_ML'] == 'Alto').sum()} empleados")
-print(f"\n ARCHIVOS GENERADOS:")
-print(f"   1. PowerBI_Dataset_Complete.xlsx (archivo principal - USAR ESTE)")
-print(f"   2. PowerBI_FeatureImportance.xlsx")
-print(f"   3. PowerBI_ModelMetrics.xlsx")
-print(f"   4. PowerBI_HighRisk.xlsx")
-print(f"\n SIGUIENTE PASO:")
-print(f"   1. Abre Power BI Desktop")
-print(f"   2. Importa PowerBI_Dataset_Complete.xlsx")
-print(f"   3. Crea el dashboard interactivo")
-print("="*80)
+print("okey")
