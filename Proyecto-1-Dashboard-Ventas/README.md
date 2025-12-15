@@ -1,5 +1,4 @@
-# Proyecto 1:
-# Dashboard de Ventas - Análisis Retail Superstore
+# Proyecto 1: Dashboard de Ventas - Análisis Retail Superstore
 ## Objetivo del Proyecto
 Analizar el desempeño comercial de una cadena de tiendas retail para identificar oportunidades de mejora en rentabilidad, optimizar el portafolio de productos y detectar regiones con bajo margen de ganancia.
 
