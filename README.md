@@ -85,7 +85,7 @@ Busco mi primera oportunidad como **Practicante de Análisis de Datos / Data Ana
 
 ### 1. [Dashboard de Ventas - Análisis Retail](./Proyecto-1-Dashboard-Ventas)
 
-![Dashboard Ventas](Proyecto-1-Dashboard-Ventas/dashboard-preview.png)
+![Dashboard Ventas](Proyecto-1-Dashboard-Ventas/Dashboard-Ventas-Superstore.png)
 
 **Herramientas**: Excel, Power BI, DAX, Power Query  
 **Dataset**: 51,290 transacciones de retail (2011-2014)
