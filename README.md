@@ -134,21 +134,71 @@ Python (Pandas, NumPy, Matplotlib, Seaborn), Machine Learning (Random Forest), F
 
 ---
 
-### 3. [Análisis de Base de Datos con PostgreSQL](./Proyecto-3-Analisis-PostgreSQL)
+### 3. [Sistema de Análisis de Datos - Cadena Veterinaria](./Sistema de Análisis de Datos - Cadena Veterinaria)
 
-**Estado**: En planificación  
-**Herramientas planeadas**: PostgreSQL, Python, SQL, Power BI
+**Herramientas:** PostgreSQL, Python, Tableau Desktop, SQL Avanzado, ETL
+**Dataset:** 150,000+ registros transaccionales de múltiples sedes
 
-**Descripción:**  
-Proyecto enfocado en el manejo de bases de datos relacionales, consultas SQL avanzadas, optimización de queries y análisis de datos directamente desde PostgreSQL.
+**Descripción:**
+Sistema completo de análisis de datos end-to-end para una cadena de clínicas veterinarias con presencia en 10 ciudades del Perú. Proyecto integral que abarca desde el diseño de base de datos hasta dashboards ejecutivos, demostrando competencias en arquitectura de datos, modelado dimensional, ETL automatizado y visualización profesional en Tableau.
 
-**Objetivos:**
-- Diseño y creación de base de datos normalizada
-- Consultas SQL complejas (CTEs, Window Functions, Subqueries)
-- ETL desde múltiples fuentes a PostgreSQL
-- Análisis y visualización de datos desde DB
+Arquitectura del Proyecto:
 
-*Próximamente...*
+- OLTP (Operacional): Base de datos PostgreSQL con 18 tablas normalizadas
+- Data Warehouse: Modelo dimensional (Esquema Estrella) con 7 dimensiones y 3 tablas de hechos
+- ETL: Pipeline automatizado en Python para carga incremental con SCD Type 2
+- BI Layer: 2 dashboards interactivos en Tableau Desktop
+
+Logros clave:
+
+Diseño e implementación de Data Warehouse con modelo dimensional óptimo
+Generación y carga de 150,000+ registros realistas mediante Python/Faker
+Pipeline ETL automatizado con manejo de Slowly Changing Dimensions (SCD Type 2)
+7 vistas SQL optimizadas específicamente para Tableau (mejora de performance 40%)
+2 dashboards ejecutivos publicados en Tableau Public con filtros interactivos
+Análisis de 80,000 citas y 50,000+ transacciones de venta
+
+Resultados técnicos:
+**Base de Datos:**
+- 18 tablas operacionales (OLTP) con relaciones normalizadas
+- 10 dimensiones y 3 tablas de hechos en Data Warehouse
+- Índices optimizados para queries de análisis
+- Vistas materializadas para dashboards
+
+**ETL & Performance:**
+- Pipeline Python con logging completo y manejo de errores
+- Carga incremental: procesa solo registros nuevos
+- Tiempo de ejecución: 2-5 minutos para 150K+ registros
+- SCD Type 2 implementado para tracking de cambios históricos
+
+**Análisis de Negocio:**
+- Identificación de sedes con mayor rentabilidad
+- Análisis de productividad por veterinario
+- Top productos por margen de contribución
+- Análisis de estacionalidad en consultas veterinarias
+
+**Dashboards creados:**
+1. Dashboard Ejecutivo:
+- KPIs principales: Ingresos totales, número de ventas, clientes únicos, ticket promedio
+- Tendencia mensual de ingresos con análisis YoY
+- Comparativa de ingresos por sede y ciudad
+- Tasa de asistencia a citas programadas
+
+2. Dashboard de Análisis de Ventas:
+- Distribución de ventas por categoría de producto
+- Top 20 productos por ingresos y margen
+- Análisis de productos vs servicios
+- Tendencia de ventas mensuales con filtros interactivos
+
+**Habilidades aplicadas:**
+PostgreSQL, SQL Avanzado (CTEs, Window Functions, Joins complejos), Python (Pandas, Psycopg2, Faker), Diseño de Data Warehouse, Modelado Dimensional (Kimball), ETL Automatizado, SCD Type 2, Tableau Desktop, DAX, Optimización de Queries, Arquitectura de Datos, Pensamiento Analítico
+
+**Tecnologías destacadas:**
+- PostgreSQL: Queries con CTEs, Window Functions, subconsultas correlacionadas
+- Python: ETL con Psycopg2, generación de 100K+ registros con Faker
+- SQL: Diseño de modelo dimensional, vistas optimizadas, índices estratégicos
+- Tableau: Conexión directa (Live), parámetros dinámicos, filtros interactivos
+- Git: Control de versiones con 10 archivos documentados
 
 ---
 
