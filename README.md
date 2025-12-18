@@ -234,7 +234,7 @@ PostgreSQL, SQL Avanzado (CTEs, Window Functions, Joins complejos), Python (Pand
 - Tableau: Conexión directa (Live), parámetros dinámicos, filtros interactivos
 - Git: Control de versiones con 10 archivos documentados
 
-**[Ver proyecto completo →](./Proyecto-3)**
+**[Ver proyecto completo →](./Proyecto-3-Sistema-de-Análisis-de-Datos-Cadena-Veterinaria)**
 
 ---
 
